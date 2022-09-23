@@ -211,22 +211,37 @@ ion-icon {
     text-transform: none;
 }
 
-.cards {
-    padding: 20px;
-    width: 30%;
-    border-radius: 50px;
-    background-color: white;
-    text-align: center;
 
-    display: inline-block;
+.container-flex {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 .image img {
-    width: 40%;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
-.des p {
-    margin: 10px;
+.flex-item {
+    text-align: center;
+    padding-top: 20px;
+    margin: 30px;
+    width: 25%;
+    border-radius: 25px;
+    border: solid black 1px;
+    box-shadow: 5px 5px 5px #737373;
+}
+
+.bg-black {
+    background-color: #404040;
+    padding: 10px;
+    border-radius: 0 0 24px 24px;
+}
+
+.title p {
+    margin-top: 20px;
+    color: white;
 }
 
 
@@ -239,6 +254,7 @@ ion-icon {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     border: 2px solid black;
+    margin-bottom: 10px;
 }
 
 .des button:hover {
@@ -247,9 +263,9 @@ ion-icon {
     border: 2px solid black;
     cursor: pointer;
     transition: ease-out 0.3s;
-
 }
 
-.main {
-    text-align: center;
+.des p {
+    margin: 15px;
+    color: white;
 }
